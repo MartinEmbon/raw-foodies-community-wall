@@ -1,0 +1,54 @@
+.contact{
+    display:flex;
+}
+
+.contactwrapper{
+    flex:9;        
+    padding: 20px;
+    padding-right: 0;
+}
+
+.contactTitle{
+    font-size: 50px;
+}
+
+.contactForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:column;
+}
+
+.contactForm > label{
+    margin:10px 0;
+}
+
+.contactInput{
+    padding:10px;
+    background-color:white;
+    border:none;
+}
+
+.contactButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border:none;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.contactRegisterButton{
+    position:absolute;
+    top:60px;
+    right:20px;
+    background-color:teal;    
+    cursor: pointer;
+    border:none;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+}
+
+
+

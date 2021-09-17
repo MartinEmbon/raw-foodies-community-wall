@@ -1,0 +1,68 @@
+.about{
+    display:flex;
+}
+
+.aboutwrapper{
+    flex:9;        
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singleContactImg{
+    width: 100%;
+    height: 300px;
+    border-radius:5px;
+    object-fit: cover;
+}
+
+.singleContactTitle{
+    text-align: center;
+    font-family:"Lora",serif;
+    font-style: 20px;
+    margin: 10px;
+}
+
+.singleContactEdit{
+    float:right;
+    font-size: 16px;
+}
+
+.singleContactIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.singleContactIcon:first-child{
+    color:teal;
+}
+
+.singleContactIcon:last-child{
+    color:tomato;
+}
+
+
+.singleContactInfo{
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: space-between;    
+    font-size: 16px;
+    color:#b39656;
+    font-family:"Varela Round",serif;
+}
+
+.singleContactDesc{
+    color:#666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singleContactDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
